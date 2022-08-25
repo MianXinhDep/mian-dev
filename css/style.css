@@ -1,0 +1,36 @@
+.section {
+    padding: 100px 0; 
+    position: relative;
+}
+
+.dark-bg {
+    background-color: #414042;
+    color: #ffffff
+}
+
+#team-box {
+    padding-top: 20vh;
+    padding-bottom: 5vh;
+}
+
+.member {
+    position: inherit;
+    padding-top: 10vh;
+}
+
+.member h1 {
+    font-size: var(--fs-500);
+    font-weight: var(--fw-bold);
+    text-transform: uppercase;
+    margin-left: var(--fs-600);
+}
+
+.member img {
+    display: inline-block;
+    width: 160px;
+    height: auto;
+}
+
+.member p {
+    margin: 5px 0;
+}
