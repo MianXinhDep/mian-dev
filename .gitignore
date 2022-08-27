@@ -1,0 +1,13 @@
+#Solution
+ConsoleApp.sln
+ConsoleApp.csproj 
+#IDE & Text editor auto-generated folder(s)
+.vs/
+.vscode/
+#Output folder
+out/
+#Auto-generated Debug 
+bin/ 
+obj/
+#Execute batch (Windows)
+run.cmd
