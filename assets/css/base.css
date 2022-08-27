@@ -1,0 +1,183 @@
+:root{
+    --white-color: #fff;
+    --black-color:#000;
+    --text-color: #ccc;
+}
+*{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    /* san-serif là tập hợp các fonts k chân */
+}
+
+/* CLASS CHUNG */
+.row::after{
+    clear: both;
+}
+.point-rm{
+    list-style-type: none;
+}
+.font13{
+    font-size: 13px;
+}
+.white-font{
+    color: #fff !important ;
+}
+.border-lr{
+    border-left: 1px solid #f96c5c ;
+    border-right: 1px solid #f96c5c ;
+}
+.border-l{
+    border-left: 1px solid #f96c5c ;
+}
+.ma_lr8{
+    margin: 0 8px;
+}
+
+
+#main{
+
+}
+.header__background{
+    background-color: #ee4d2d;
+}
+
+#header{
+    margin-top: -10px;
+    height: 128px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    max-width: 100%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.nav__seller,
+.nav__account{
+    display: flex;
+    padding: 6px 0;
+    position: absolute;
+}
+.nav a{
+
+    color: #fff;
+    text-decoration: none;
+}
+.nav__seller{
+    left: 0;
+}
+.nav__seller a{
+    padding: 0px 12px;
+}
+.nav__account{
+    right: 0;
+    top: 0;
+}
+.nav__account a{
+    padding: 0 8px;
+}
+.ti-angle-down{
+    padding-left:4px;
+}
+.social{
+    margin: 0 -8px;
+}
+.container{
+    display: flex;
+    margin-top: 40px;
+    height: 86px;
+}
+.container__logoShopee{
+    flex: 1;
+    padding: 24px 8px;
+    max-width: 162px;
+    width: 100%;
+    margin-right: 36px;
+}
+.container__logoShopee a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+.container__logoShopee i{
+    margin:0 8px;
+}
+
+.container__search{
+    flex: 4;
+    margin-top: 24px;
+
+}
+.container__input{
+    border: none;
+    height: 40px;
+    max-width: 670px;
+    width: 100%;
+    font-size: 14px;
+    padding: 0 16px;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.8);
+    clear: both;
+}
+.container__form{
+    position: relative;
+    display: flex;
+    background-color: #fff;
+}
+.btn-search{
+    margin-top: 8px;
+    margin-right: -10px;
+    flex: -1;
+
+}
+.btn-search a{
+    position: flex;
+    color: #fff;
+    background-color: #ee4d2d;
+    font-size: 18px;
+    padding: 7px 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    line-height: 1.4;
+}
+.container__suggestions{
+    display: flex;
+}
+
+
+
+.container__buy{    
+    font-size: 40px;
+
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+#content{
+
+}
+
+#about{
+
+}
+
+#footer{
+
+}
