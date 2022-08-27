@@ -11,3 +11,5 @@ bin/
 obj/
 #Execute batch (Windows)
 run.cmd
+#Auto-delete class
+src/quickDel.cmd
