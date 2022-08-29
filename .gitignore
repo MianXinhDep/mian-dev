@@ -1,0 +1,8 @@
+# CSS Framework(s) 
+src/css/materialdesignicons.min.css
+src/css/bootstrap.min.css
+# JavaScript Framework(s) 
+src/js/bootstrap.bundle.min.js 
+src/js/particles.app.js 
+src/js/particles.js 
+src/js/smooth-scroll.polyfills.min.js 
